@@ -6,12 +6,12 @@
   --accent-color: #FF8DCB;
   --decorated-zone: #353430;
   --subtitle-text:#353430;
-  --button-outline:  rgba(53, 52, 48, 0.4); 
+  --button-outline:  rgba(53, 52, 48, 0.4);
   --image-body: url(../images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
-  :root { 
+  :root {
     --main-text-color: #353430;
     --title-text-color: #ffc2e6;
     --main-color: #FFF1F7;
@@ -19,7 +19,7 @@
     --accent-color: #FF8DCB;
     --decorated-zone: #353430;
     --subtitle-text:#353430;
-    --button-outline: rgba(53, 52, 48, 0.4); 
+    --button-outline: rgba(53, 52, 48, 0.4);
     --image-body: url(../images/cover-image-light.png);
     }
 

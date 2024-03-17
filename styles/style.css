@@ -6,7 +6,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: fixed;
 }
 
 .header {
@@ -121,7 +121,7 @@ button:focus-visible {
 .header__text {
   max-block-size: 117px;
   max-inline-size: 355px;
-  margin-block-start: -11px; 
+  margin-block-start: -11px;
 }
 
 .main {
@@ -258,7 +258,7 @@ img {
   
   .header__text {
     max-inline-size: 365px;
-    margin-block-start: -20px; 
+    margin-block-start: -20px;
   }
   
   .main {
@@ -382,7 +382,7 @@ img {
  .section-columns-second {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, min-content); 
+    grid-template-rows: repeat(2, min-content);
   }
 
   .article {
