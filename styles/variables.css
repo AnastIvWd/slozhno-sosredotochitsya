@@ -4,11 +4,20 @@
   --font-size-text: 18px;
   --main-text-color: #f1b2ce;
   --title-text-color: #db00ff;
+  --title-text-shadow: #ff0070;
   --main-color: #000028;
   --important-text:#000028;
   --accent-color: #ff0070;
   --decorated-zone: #ff0070;
+  --decorated-zone-text: #ff0070;
   --subtitle-text:#ff0070;
   --button-outline: rgba(255, 0, 112, 0.4);
   --image-body: url(../images/cover-image-dark.png);
+  --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }

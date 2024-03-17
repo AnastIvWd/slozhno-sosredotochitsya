@@ -1,10 +1,12 @@
 :root .theme_light {
   --main-text-color: #353430;
   --title-text-color: #ffc2e6;
+  --title-text-shadow: #ff0070;
   --main-color: #FFF1F7;
   --important-text:#353430;
   --accent-color: #FF8DCB;
   --decorated-zone: #353430;
+  --decorated-zone-text: transparent;
   --subtitle-text:#353430;
   --button-outline:  rgba(53, 52, 48, 0.4);
   --image-body: url(../images/cover-image-light.png);
@@ -18,39 +20,13 @@
     --important-text:#353430;
     --accent-color: #FF8DCB;
     --decorated-zone: #353430;
+    --decorated-zone-text: transparent;
     --subtitle-text:#353430;
     --button-outline: rgba(53, 52, 48, 0.4);
     --image-body: url(../images/cover-image-light.png);
     }
-
-  .theme_auto .decorative-text {
-    display: none;
-  }
 }
 
-@media (min-width: 1024px) {
-  .theme_auto .header__title {
-    --accent-color: #ff0070;
-  }
-
-  .theme_auto .footer__title {
-    --accent-color: #ff0070;
-  }
-}
-
-.theme_light .decorative-text {
-  display: none;
-}
-
-@media (min-width: 1024px) {
-  .theme_light .header__title {
-    --accent-color: #ff0070;
-  }
-
-  .theme_light .footer__title {
-    --accent-color: #ff0070;
-  }
-}
 
 
 
